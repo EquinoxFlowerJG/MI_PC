@@ -695,31 +695,34 @@ body{
     display: block;
     font-size: 16px;
     height: 58px;
+    line-height: 58px;
     color: #424242;
     -webkit-transition: all .4s;
     transition: all .4s;
     float: left;
     margin-right: 10px;
 }
-#container .fr a span{
+#container .space a span{
     margin-left: 30px;
     padding-bottom: 2px;
 }
-#container .fr a span.selected{
+#container .space a span.selected{
     color: #ff6700;
     border-bottom: 2px solid #ff6700;
 }
-#container .fr a i{
-    font-size: 12px;
+#container .space a i{
+    font-size: 8px;
     width: 10px;
     height: 10px;
     padding: 4px;
+    box-sizing: border-box;
     border-radius: 50%;
     background: #b0b0b0;
     color: #fff;
     margin-left: 8px;
     -webkit-transition: all .4s;
     transition: all .4s;
+    vertical-align: 1.5px;
 }
 #container .fr a:hover{
     color: #ff6700;
